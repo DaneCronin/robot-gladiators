@@ -68,11 +68,10 @@ var fight = function() {
             fight();
         }
     
-        window.alert(playerName + " has chosen to skip the fight!");
     } else {
         window.alert("You need to choose a valid option. Try again!");
     }
-};
+}; //end of fight function
 
 fight();
 
