@@ -13,6 +13,22 @@ var enemyName = "Roborto";
 var enemyHealth = 50;
 var enemyAttack = 12;
 
+
+//Game States
+
+
+
+//"Win"- Player robot defeats all enemy robots.
+
+// *fight all enemy robots
+
+// *defeat each enemy robot
+
+
+//"Lose"- Player robot's health is zero or less.
+
+
+
 var fight = function() {
 
     //Alert players that they are starting the round
@@ -73,6 +89,6 @@ var fight = function() {
     }
 }; //end of fight function
 
-fight();
+//fight();
 
 
